@@ -59,7 +59,7 @@ function sampev.onServerMessage(color, text)
 end
 
 function sampev.onShowTextDraw(id, data)
-	if math.floor(data.position.x) == 610 and math.floor(data.position.y) == 132 then cubetdid = id end
-	if math.floor(data.position.x) == 603 and math.floor(data.position.y) == 148 then usetdid = id end
-	if math.floor(data.position.x) == 593 and math.floor(data.position.y) == 331 then closetdid = id end
+	if math.floor(data.position.x) == 599 and math.floor(data.position.y) == 127 then cubetdid = id end
+	if math.floor(data.position.x) == 592 and math.floor(data.position.y) == 158 then usetdid = id end
+	if math.floor(data.position.x) == 582 and math.floor(data.position.y) == 326 then closetdid = id end
 end
